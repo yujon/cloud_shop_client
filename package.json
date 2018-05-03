@@ -1,0 +1,42 @@
+{
+  "name": "cloud_shop_client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.1.8",
+    "prop-types": "^15.6.1",
+    "react": "16.3.0-alpha.1",
+    "react-dedux": "^0.4.0-beta.4",
+    "react-dom": "^16.3.2",
+    "react-native": "0.54.2",
+    "react-native-country-code-picker": "^1.3.5",
+    "react-native-device-info": "^0.21.5",
+    "react-native-dialogs-master": "^1.0.5",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-simple-store": "^1.3.0",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-wechat": "^1.9.9",
+    "react-navigation": "^1.5.2",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-plugin-import": "^1.7.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
