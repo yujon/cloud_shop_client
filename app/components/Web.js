@@ -7,9 +7,13 @@ import {WEB} from '../constants/common';
 const Web = ({
   shopId,commodityId
 }) => {
-  // let url = `${WEB}/${shopId}`;
-  // commodityId && (url = url +  '/' + commodityId);
-  let url = "http://baidu.com/"
+  let url = '';
+  if(commodityId){
+     url = `${WEB}/web-commodity/${shopId}/${commodityId}`;
+  }else{
+     url = `${WEB}/web-shop/${shopId}`;
+  }
+
   return (
       <View style={styles.container}>
         <WebView
@@ -42,6 +46,7 @@ const styles = StyleSheet.create({
   },
   base:{
     width:'100%',
+    height:'100%'
   }
 });
 

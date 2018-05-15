@@ -77,7 +77,7 @@ export const getDate = function(date){
 export const getPriceRangeAndAllRest = function (models){
     var minPrice,maxPrice,priceRange,minProfit,maxProfit,profitRange,allRest = 0;
     if(!models || models.length == 0){
-      return  0;
+      return  {};
     };
     minPrice = maxPrice = models[0].modelPrice;
     minProfit = maxProfit = models[0].modelProfit;

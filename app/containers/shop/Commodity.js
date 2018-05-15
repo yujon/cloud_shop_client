@@ -117,7 +117,7 @@ class Commodity extends React.Component {
       description: "好产品，放心购",
       thumbImage: SERVER + commodityImg,
       type: 'news',
-      webpageUrl: `${WEB}/commodity/${shopId}/${commodityId}`
+      webpageUrl: `${WEB}/web-commodity/${shopId}/${commodityId}`
     })
   }
 
@@ -137,7 +137,7 @@ class Commodity extends React.Component {
       description: "好产品，放心购",
       thumbImage: SERVER + commodityImg,
       type: 'news',
-      webpageUrl: `${WEB}/commodity/${shopId}/${commodityId}`
+      webpageUrl: `${WEB}/web-commodity/${shopId}/${commodityId}`
     })
   }
 

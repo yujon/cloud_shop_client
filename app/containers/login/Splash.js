@@ -45,8 +45,6 @@ class Splash extends React.Component {
     SplashScreen.hide();
     registerApp(WXAPPID);
     //判断是否登录来选择跳转页面
-    // store.delete('shopId')
-    // store.delete('userId')
     this.timer = setTimeout(() => {
       store.get('userId').then((userId) => {
         store.get('shopId').then((shopId) => {

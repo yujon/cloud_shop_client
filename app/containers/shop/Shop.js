@@ -144,7 +144,7 @@ class Shop extends React.Component {
       description: "推荐这家云店",
       thumbImage: SERVER + shopIcon,
       type: 'news',
-      webpageUrl: `${WEB}/shop/${shopId}`
+      webpageUrl: `${WEB}/web-shop/${shopId}`
     })
   }
 
@@ -161,7 +161,7 @@ class Shop extends React.Component {
       description: "推荐这家云店",
       thumbImage: SERVER + shopIcon,
       type: 'news',
-      webpageUrl: `${WEB}/shop/${shopId}`
+      webpageUrl: `${WEB}/web-shop/${shopId}`
     })
   }
 
